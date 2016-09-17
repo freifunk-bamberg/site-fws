@@ -14,7 +14,7 @@ GLUON_SITE_PACKAGES := \
        gluon-config-mode-core \
        gluon-config-mode-geo-location \
        gluon-config-mode-hostname \
-       gluon-config-mode-mesh-vpn \
+       gluon-config-mode-tunneldigger \
        gluon-ebtables-filter-multicast \
        gluon-ebtables-filter-ra-dhcp \
        gluon-luci-admin \
@@ -23,17 +23,19 @@ GLUON_SITE_PACKAGES := \
        gluon-luci-wifi-config \
        gluon-luci-private-wifi \
        gluon-next-node \
-       gluon-mesh-vpn-fastd \
+       gluon-mesh-vpn-tunneldigger \
        gluon-radvd \
        gluon-setup-mode \
        gluon-status-page \
        haveged \
        iptables \
+       gluon-tunneldigger-watchdog \
+       gluon-migrate-vpn \
        iwinfo \
-       ffws-keyupl \
+       ffws-reboot \
        ffws-chkgw \
-       ffws-swgw
-
+       ffws_keyupl
+       
 # support the USB stack
 USB_PACKAGES_BASIC := \
        kmod-usb-core \
